@@ -1,0 +1,64 @@
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f5f7fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #004466;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.submit-button, .toggle-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover,
+.toggle-button:hover {
+  background-color: #004a99;
+}
+
+.twilio-banner {
+  background-color: #e0f7fa;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.twilio-banner a {
+  font-weight: bold;
+  color: #007399;
+  text-decoration: none;
+}
+
+.welcome-message {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #2e7d32;
+  margin-top: 50px;
+}
